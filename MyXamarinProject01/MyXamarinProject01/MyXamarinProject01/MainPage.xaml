@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXamarinProject01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Sistema móvil de almacenes (SMA)" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <!--<Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>-->
+        <!--<Label Text="This is my new demo!" FontSize="20" Padding="30,10,30,10"></Label>-->
+        <Image Source="logistics.jpg" WidthRequest="200" HeightRequest="200"></Image>
+
+
+         <Label Text="Usuario" FontSize="21"></Label>
+        <Entry Keyboard="Text"></Entry>
+        <Label Text="Password" FontSize="21"></Label>
+        <Entry Keyboard="Text" IsPassword="True"></Entry>
+
+        <!--<Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>-->
+        
+        <StackLayout>
+            <Button x:Name="btnIniciar" Clicked="btnIniciar_Clicked" Text="Iniciar"></Button>
+            <Button x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked"  Text="Registrar"></Button>
+        </StackLayout>
+        
+
+    </StackLayout>
+
+</ContentPage>
