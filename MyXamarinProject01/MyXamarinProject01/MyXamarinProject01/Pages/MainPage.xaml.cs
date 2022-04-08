@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyXamarinProject01.Pages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -18,12 +19,14 @@ namespace MyXamarinProject01
 
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MenuPage());
+            //Navigation.PushAsync(new MenuPage());
+            Application.Current.MainPage = new FrmPrincipal();
+
         }
 
         private void btnRegistrar_Clicked(object sender, EventArgs e)
         {
-
+           Navigation.PushAsync(new RegistroPage());
         }
     }
 }
