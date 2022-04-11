@@ -5,9 +5,28 @@
              Title="ok2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="This is a detail"></Label>
+            <Frame CornerRadius="50">
+                <Label Text="Welcome to Xamarin.Forms"
+                        VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand">
+                </Label>
+            </Frame>
+
+            <Frame CornerRadius="50">
+                <Label Text="Welcome to Xamarin.Forms2"
+                        VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand">
+                </Label>
+            </Frame>
+
+            <Frame CornerRadius="50">
+                <Label Text="Welcome to Xamarin.Forms2"
+                        VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand">
+                </Label>
+            </Frame>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
