@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Pages\Formulario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\FrmPrincipal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

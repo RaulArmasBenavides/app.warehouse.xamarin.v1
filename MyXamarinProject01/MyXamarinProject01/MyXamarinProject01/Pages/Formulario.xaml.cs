@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace MyXamarinProject01.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Header : ContentPage
+    public partial class Formulario : ContentPage
     {
-        public Header()
+        public Formulario()
         {
             InitializeComponent();
-        }
-
-        private void ToolbarRegistrar_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Formulario());
         }
     }
 }
