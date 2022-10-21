@@ -17,14 +17,14 @@ namespace MyXamarinProject01
 
         }
 
-        private void btnIniciar_Clicked(object sender, EventArgs e)
+        private void BtnIniciar_Clicked(object sender, EventArgs e)
         {
             //Navigation.PushAsync(new MenuPage());
             Application.Current.MainPage = new FrmPrincipal();
 
         }
 
-        private void btnRegistrar_Clicked(object sender, EventArgs e)
+        private void BtnRegistrar_Clicked(object sender, EventArgs e)
         {
            Navigation.PushAsync(new RegistroPage());
         }

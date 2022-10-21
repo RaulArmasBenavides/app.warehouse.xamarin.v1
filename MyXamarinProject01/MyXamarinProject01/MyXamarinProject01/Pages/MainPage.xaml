@@ -30,8 +30,8 @@
         </Label>-->
         
         <StackLayout>
-            <Button x:Name="btnIniciar" Clicked="btnIniciar_Clicked" Text="Iniciar"></Button>
-            <Button x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked"  Text="Registrar"></Button>
+            <Button x:Name="btnIniciar" Clicked="BtnIniciar_Clicked" Text="Iniciar"></Button>
+            <Button x:Name="btnRegistrar" Clicked="BtnRegistrar_Clicked"  Text="Registrar"></Button>
         </StackLayout>
         
 

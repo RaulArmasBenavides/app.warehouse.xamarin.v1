@@ -16,5 +16,10 @@ namespace MyXamarinProject01.Pages
         {
             InitializeComponent();
         }
+
+        private void ToolbarRegistrar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page());
+        }
     }
 }
